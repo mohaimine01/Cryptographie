@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.key
+*.csr
+
+# état interne d'OpenSSL ca
+tp2/*/newcerts/
+tp2/*/index.txt*
+tp2/*/serial*
+tp2/*/crlnumber*
+tp2/serveur_chaine.crt
