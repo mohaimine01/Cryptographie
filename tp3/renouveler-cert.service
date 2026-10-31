@@ -1,0 +1,7 @@
+[Unit]
+Description=Renouvellement du certificat du serveur www.tp.local
+
+[Service]
+Type=oneshot
+Environment=PKI=/opt/tp2
+ExecStart=/opt/tp3/renouveler.sh

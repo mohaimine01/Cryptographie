@@ -1,0 +1,10 @@
+[Unit]
+Description=Renouvellement quotidien du certificat du serveur
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+RandomizedDelaySec=1800
+Persistent=true
+
+[Install]
+WantedBy=timers.target
